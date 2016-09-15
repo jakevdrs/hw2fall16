@@ -6,4 +6,3 @@ describe "Class" do
     expect(lambda { Class.new.attr_accessor_with_history :x }).not_to raise_error
   end
 end
-
